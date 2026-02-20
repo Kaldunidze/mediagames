@@ -1,5 +1,5 @@
 #set text(size: 15pt)
-#set page(paper: "a4", margin: 1.5cm, footer: align(center)[КОНКУРС С ОПЕРАЦИЯМИ №какой нибудь])
+#set page(paper: "a4", margin: 1.5cm, footer: align(center)[КОНКУРС №4])
 #set text(
   font: "Helvetica Neue",
   weight: "light",
@@ -13,12 +13,12 @@
   image(width: 40%, "assets/bw_vector_sova.svg"),
 )
 
-#text(size: 30pt, style: "oblique", weight: "medium", "Конкурс с операциями")
+#text(size: 30pt, style: "oblique", weight: "medium", "+ снег - елка")
 
 
 
 
-#set text(size: 20pt)
+#set text(size: 18pt)
 
 #let op1_func(a, b) = {
   return int(str(a) + str(b))
@@ -64,13 +64,7 @@
 #let op6 = math.bitcoin
 
 
-
-
-В этом задании мы предлагаем вам найти закономерности в этих нестандартных математических операциях пользуясь примерами, и решить задания.
-
-
-
-
+Перед вами необычные математические операции.Разгадайте логику их работы, опираясь на приведенные примеры, и найдите правильные ответы к задачам.
 
 #box[
   #set align(center)

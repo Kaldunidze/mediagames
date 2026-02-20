@@ -1,5 +1,5 @@
 #set text(size: 15pt)
-#set page(paper: "a4", margin: 1.5cm, footer: align(center)[КОНКУРС С ЛЕГЕНДАМИ №какой нибудь])
+#set page(paper: "a4", margin: 1.5cm, footer: align(center)[КОНКУРС №2])
 #set text(
   font: "Helvetica Neue",
   weight: "light",
@@ -13,7 +13,7 @@
   image(width: 40%, "assets/bw_vector_sova.svg"),
 )
 
-#text(size: 30pt, style: "oblique", weight: "medium", "Конкурс с легендами")
+#text(size: 30pt, style: "oblique", weight: "medium", "Загадка дыры")
 
 
 #set text(size: 15pt)

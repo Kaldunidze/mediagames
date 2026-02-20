@@ -1,5 +1,8 @@
 #set text(size: 15pt)
-#set page(paper: "a4", margin: 1.5cm, footer: align(center)[КОНКУРС С ПЕСНЯМИ №какой нибудь])
+
+
+
+#set page(paper: "a4", margin: 1.5cm, footer: align(center)[КОНКУРС №3])
 #set text(
   font: "Helvetica Neue",
   weight: "light",
@@ -13,7 +16,7 @@
   image(width: 40%, "assets/bw_vector_sova.svg"),
 )
 
-#text(size: 30pt, style: "oblique", weight: "medium", "Конкурс с песнями")
+#text(size: 30pt, style: "oblique", weight: "medium", "Трудности перевода")
 
 
 #set text(size: 20pt)
