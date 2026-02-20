@@ -174,4 +174,4 @@
 Пространство для размышлений #sym.arrow.b
 
 
-#rect(width: 100%, height: 20cm, stroke: black + 2pt, fill: tiling(square(size: 1cm)))
+#rect(width: 100%, height: 18cm, stroke: black + 2pt, fill: tiling(square(size: 1cm)))
