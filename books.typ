@@ -1,6 +1,3 @@
-
-
-
 #set text(size: 15pt)
 #set page(paper: "a4", margin: 1.5cm, footer: align(center)[КОНКУРС С КНИГАМИ №какой нибудь])
 #set text(
@@ -10,8 +7,6 @@
 
 #text(size: 40pt, "VIII Кубок школы №57")
 
-
-
 #place(
   right + top,
   dy: -5%,
@@ -20,7 +15,6 @@
 )
 
 #text(size: 30pt, style: "oblique", weight: "medium", "Конкурс с книгами")
-
 
 
 #set text(size: 20pt)

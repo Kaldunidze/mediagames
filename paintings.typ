@@ -1,16 +1,11 @@
-
-
-
-#set page(paper: "a4", margin: 1cm)
+#set text(size: 15pt)
+#set page(paper: "a4", margin: 1.5cm, footer: align(center)[КОНКУРС С КАРТИНАМИ №какой нибудь])
 #set text(
   font: "Helvetica Neue",
   weight: "light",
 )
 
 #text(size: 40pt, "VIII Кубок школы №57")
-
-
-
 #place(
   right + top,
   dy: -5%,

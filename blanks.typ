@@ -1,5 +1,5 @@
 
-
+#set text(weight: 300, font: "Helvetica Neue")
 #let blank_body(name, location, num, pic) = [
   #box(width: 90%, height: 80%, [
     #place(left + top, rotate(num * 0deg, text(size: 10pt, name)))
@@ -23,7 +23,7 @@
   ])
 ]
 
-#set text(weight: 300, font: "Helvetica Neue")
+
 
 
 
@@ -49,17 +49,17 @@
 
 
 #let start_team = 1
-#let finish_team = 6
+#let finish_team = 5
 #let width_blanks = 4
-#let height_blanks = 4
-#let location = "День рождения школы №57"
+#let height_blanks = 9
+#let location = "Кубок Школы"
 #let team_prefix = "Команда №"
 #let picture = image("/assets/bw_vector_sova.svg")
 
-#set page(flipped: true)
+#set page(flipped: false)
 
 #for i in range(start_team, finish_team + 1) {
-  one_blankpage((loc: location, tp: team_prefix + str(i), pic: none), (width: width_blanks, height: height_blanks))
+  one_blankpage((loc: location, tp: team_prefix + str(i), pic: picture), (width: width_blanks, height: height_blanks))
 }
 
 
