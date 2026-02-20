@@ -22,7 +22,7 @@
 #{
   set align(center)
 
-  set text(30pt)
+  set text(25pt)
   table(
     columns: (10%, 50%, 40%),
     rows: (6%,) * 11,
